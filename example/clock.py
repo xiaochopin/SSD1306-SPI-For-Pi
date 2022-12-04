@@ -36,7 +36,7 @@ try:
         tb=time.strftime("%H:%M:%S", time.localtime())
         ts=time.strftime("%a %b %Y", time.localtime())
         draw.text((10,14),str(tb), font=font, fill=255)
-        draw.text((15,46),str(ts), font=font16, fill=255)
+        draw.text((10,46),str(ts), font=font16, fill=255)
         oled.image(image)
         oled.show()
         time.sleep(.1)
